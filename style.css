@@ -46,9 +46,12 @@ header input{
     border-radius: 10px;
     padding-left: 0.5rem;
 }
+header input:focus{
+    outline: none;
+}
 header article{
     width: 60%;
-    height: 10rem;
+    height: 11rem;
     display: none;
     position: absolute;
     top: 2.8rem;
@@ -64,6 +67,11 @@ header article >*{
     outline: none;
     border: 0;
     
+}
+
+header article button:hover{
+    background-color: #ab9f9f;
+    cursor: pointer;
 }
 
 aside .example h2{
@@ -157,9 +165,6 @@ aside div.angle{
 }
 /* allfood style start */
 
-/* aside{
-    z-index: -2;
-} */
 main main{
     position: absolute;
     top: 0;
@@ -173,7 +178,6 @@ main main{
     background-color: black;
     display: none;
 }
-
 
 main main div{
             

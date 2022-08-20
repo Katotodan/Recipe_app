@@ -252,6 +252,9 @@ document.querySelector('.home').addEventListener('click', () =>{
     
 })
 
+// listen to remove menu items while input the food's name
+document.querySelector('header input').addEventListener('click' , removeMenu)
+
 
 
 
